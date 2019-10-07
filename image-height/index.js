@@ -1,8 +1,8 @@
-const sass = require('node-sass');
 const imageSize = require('image-size');
 
 const getFn = (options = {}) => ({
   'image-height($url)': (arg) => {
+    const sass = options.sass || require('sass');
     const url = arg.getValue();
 
     const root = options.publicRoot || __dirname;
