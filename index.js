@@ -6,7 +6,9 @@ const paths = [
 ];
 
 const modules = paths.reduce((acc, name) => ({ ...acc, [name]: require(`./${name}`) }), {});
-const getFn = (options) => Object.keys(modules).map((name) => modules[name](options));
+const getFn = (options) => (
+  paths.reduce((acc, name) => ({ ...acc, [name]: modules[name](options) }), {})
+);
 
 getFn.modules = modules;
 
