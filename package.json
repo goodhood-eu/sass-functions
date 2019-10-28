@@ -6,7 +6,7 @@
   "readmeFilename": "README.md",
   "repository": "goodhood-eu/sass-functions",
   "bugs": "https://github.com/goodhood-eu/sass-functions/issues",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "keywords": [
     "sass",
     "scss",
@@ -14,17 +14,14 @@
     "functions"
   ],
   "main": "index.js",
-  "engines": {
-    "node": "^10.x.x"
-  },
   "scripts": {
     "reinstall": "rm -rf node_modules package-lock.json && npm install",
     "lint": "eslint ./"
   },
   "devDependencies": {
-    "eslint": "^6.5.1",
-    "eslint-config-nebenan-base": "^1.0.0",
-    "sass": "^1.23.0"
+    "eslint": "^6.6.0",
+    "eslint-config-nebenan-base": "^1.0.2",
+    "sass": "^1.23.1"
   },
   "dependencies": {
     "image-size": "^0.8.2"
