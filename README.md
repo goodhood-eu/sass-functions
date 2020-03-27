@@ -26,6 +26,8 @@ Adds a string replace function that takes a pattern (string or regular expressio
 ### image-size($url)
 Generator takes a required `publicRoot` option that is used as a base path to look for all of the images. Returns a map with keys `width` and `height`.
 
+Takes optional `alias` property to use along with webpack aliases to resolve paths to files
+
 ### image-width($url)
 Same as `image-size` but only returns width
 
