@@ -28,11 +28,4 @@ Generator takes a required `publicRoot` option that is used as a base path to lo
 
 Takes optional `alias` property to use along with webpack aliases to resolve paths to files
 
-### image-width($url)
-Same as `image-size` but only returns width
-
-### image-height($url)
-Same as `image-height` but only returns height
-
-
 ## [MIT License](LICENSE)

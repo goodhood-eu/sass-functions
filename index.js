@@ -1,8 +1,6 @@
 const paths = [
   'replace',
   'image-size',
-  'image-width',
-  'image-height',
 ];
 
 const modules = paths.reduce((acc, name) => ({ ...acc, [name]: require(`./${name}`) }), {});
