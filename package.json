@@ -1,12 +1,11 @@
 {
   "name": "sass-functions",
   "description": "Collection of JS functions to extend node-sass",
-  "author": "Nebenan.de <max@nebenan.de>",
+  "author": "Good Hood GmbH <tech@nebenan.de>",
   "license": "MIT",
-  "readmeFilename": "README.md",
-  "repository": "goodhood-eu/sass-functions",
+  "repository": "github:goodhood-eu/sass-functions",
   "bugs": "https://github.com/goodhood-eu/sass-functions/issues",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "keywords": [
     "sass",
     "scss",
@@ -19,12 +18,12 @@
     "lint": "eslint ./"
   },
   "devDependencies": {
-    "eslint": "^7.6.0",
-    "eslint-config-nebenan-base": "^1.7.1",
-    "sass": "^1.49.0"
+    "eslint": "^8.52.0",
+    "eslint-config-nebenan-base": "^2.0.3",
+    "sass": "^1.69.5"
   },
   "dependencies": {
-    "escape-string-regexp": "^2.0.0",
-    "image-size": "^0.8.2"
+    "escape-string-regexp": "^4.0.0",
+    "image-size": "^1.0.2"
   }
 }
